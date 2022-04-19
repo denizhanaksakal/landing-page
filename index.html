@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="description" content="Landing Page" />
+    <title>Landing Page</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Landing Page</h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <img
+        src="asset/wallpaper.jpg"
+        alt="wallpaper"
+        height="300px"
+        width="300px"
+      />
+      <div class="name">
+        <h2 class="heading-large text-center">Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit,
+          rerum?
+        </p>
+      </div>
+      <a class="btn btn-primary" href="#courses">Go to Courses</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Trainings</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa-solid fa-pencil"></i>
+          <h3>In-Class Content</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa-solid fa-pencil"></i>
+          <h3>Online Content</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa-solid fa-pencil"></i>
+          <h3>Conference</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium">Courses</h3>
+      <div class="container">
+        <div class="courses">
+          <!-- Course 1 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="asset/python.jpg" alt="Python" />
+              <span>%90 Discount</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Python</div>
+              <div class="description">Beginner to Advanced</div>
+              <div class="instructor">Udemy</div>
+              <div class="rating">4.6 | (19990 Votes)</div>
+            </div>
+          </div>
+          <!-- Course 2 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="asset/java.jpg" alt="Java" />
+              <span>%90 Discount</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Java</div>
+              <div class="description">
+                Complete Java Course
+              </div>
+              <div class="instructor">Udemy</div>
+              <div class="rating">4.6 | (7000 Votes)</div>
+            </div>
+          </div>
+          <!-- Course 3 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="asset/javascript.jpg" alt="JavaScript" />
+              <span>%90 Discount</span>
+            </div>
+            <div class="course-info">
+              <div class="title">JavaScript</div>
+              <div class="description">
+                Complete JavaScript - ES6+
+              </div>
+              <div class="instructor">Udemy</div>
+              <div class="rating">4.7 | (2000 Votes)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Contact me</h4>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Message..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-block">Send</button>
+        </form>
+
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

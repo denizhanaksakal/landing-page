@@ -1,0 +1,20 @@
+#navbar {
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+}
+#home img {
+  width: 200px;
+  height: 200px;
+}
+#training .items {
+  flex-direction: column;
+}
+#training .items .item {
+  width: 100%;
+}
+#courses .courses .course {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
